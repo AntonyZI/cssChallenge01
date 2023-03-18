@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(25,25,25);
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    padding: 0 max(calc(50% - (580px)), 0px);
+    /*width: 1160px;*/
+}
+
+
+#topIcons {
+    height: 50px;
+    width: min(1160px, 100%);
+}
+    #topIcons * {
+        height: inherit;
+        /*position: absolute;*/
+    }
+#leftTopIcons {
+    float: left;
+}
+#rightTopIcons {
+    float: right;
+}
+    #rightTopIcons * {
+        /*position: absolute;*/
+        float: left;
+        width: 30px;
+    }
+
+#logoPrincipal {
+    height: inherit;
+}
